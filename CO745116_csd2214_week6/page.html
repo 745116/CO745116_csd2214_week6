@@ -6,13 +6,11 @@
 <body>
     <div></div>
     <script>
-        var sum = 0;
-        var i = 117
-        while(i >= 11) {
-            sum += i;
-            i -= 8;
+
+        var days = ['sun', 'mon', 'tue', 'wed', 'thurs', 'Fri', 'Sat'];
+        for (i = 0; i < days.length; i++) {
+            document.write(days[i] + "<p>");
         }
-        document.write("sum is:" + sum);
     </script>
 </body>
 </html>
